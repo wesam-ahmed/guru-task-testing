@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LoginPage {
 WebDriver driver;
 By UserId=By.xpath("//input[@name=\"uid\"]");
+    public static final String EXPECT_ERROR = "User or Password is not valid";
+    public static final String EXPECT_TITLE = "Guru99 Bank Manager HomePage";
 By Password=By.xpath("//input[@name=\"password\"]");
 By Loginbtn=By.xpath("//input[@name=\"btnLogin\"]");
 By idconfirm=By.xpath("//td[@style=\"color: green\"]");
